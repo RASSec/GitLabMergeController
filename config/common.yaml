@@ -1,0 +1,71 @@
+xMessageUrl: https://xmessage-api.earth.xpaas.lenovo.com/api/open/email/send 
+
+xMessageData:
+        service: li-ecommerce-devops-smtp
+        token: 2769d84894d980ca6f31996044908065 
+        subject: subject
+        content: <html><body>content</body></html>
+        to:  []
+        
+xMessageHeaders:
+        Server: earth
+        cache-control: no-cache
+        Content-Type: application/json
+        
+dataSource :
+    host: 10.122.46.24
+    user: root
+    password: diet0coke@
+    db: DataAggregation
+    charset: utf8
+
+mq:
+  host: 10.122.46.24
+  user: admin
+  password: admin
+  port: 5672
+  virtualhost: devops
+  exchange: mergere-request
+  route_key: state-sync
+  queue: mergerequest-state-sync
+
+ApiTestmq:
+  host: 10.122.46.24
+  user: admin
+  password: admin
+  port: 5672
+  virtualhost: devops
+  exchange: api_test_result
+  route_key: test_result
+  queue: api_test_result_sync
+
+
+
+redis:
+  host: 10.122.46.24
+  port: 6379
+
+projectIds :
+ - 12081
+    
+
+testTeam_DataSource:
+  host: 10.62.100.30
+  user: root
+  password: admin
+  db: necommerce-auto-report
+
+jenkinsConfig_testTeam:
+  url: http://10.62.100.30:8888
+  username: admin
+  password: 1qazxsw2
+
+#jenkinsConfig_testTeam:
+#  url: http://100.67.28.132:8080
+#  username: devops
+#  password: devops123
+
+consul_config:
+  host: 10.122.46.24
+  port: 8500
+  token: None

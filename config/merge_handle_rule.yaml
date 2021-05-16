@@ -1,0 +1,30 @@
+- projectID: "12081"
+  projectName: "data_aggregation_utils"
+  targetbranch: "master"
+  sourcebranch:
+  sourceproject_id_list:
+  regularmatchbranch: False
+  reviewer:
+    - qinlang1
+    - kongyi1
+  auditrecord:
+    - kongyi1@lenovo.com
+    - qinlang1@lenovo.com
+  notification:
+    - reviewers
+    - connotmerge
+    # - aftermerge
+    - mergeconflict
+    - cherrypickfailed
+    - auditrecord
+  compilepass: False
+  automerge: True
+  #mode: "assigneeControl"
+  mode: "freeApproverCount"
+  #mode: "mixControl"
+  approvalWord: 'Approved'
+  cherry-pick:
+    targetbranch: "cherry-pick"
+    enable: False
+
+

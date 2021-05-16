@@ -1,0 +1,160 @@
+batch_create_branch_infos: 
+- 
+  project_id:   '12081'
+  refBranch: 'master'
+  branchNameList:
+   - 'testBranch2'
+   - 'testBranch3'
+- 
+  project_id:   '12081'
+  refBranch: 'master'
+  branchNameList:
+   - 'testBranch1'
+
+
+batch_create_tag_infos: 
+# -
+#  project_id:  '000'
+#  project_name: 'liecomm'
+#  tag_name: 'R20191210'
+#  #msg: 'tag_msg'
+#  refBranch: 'release/R20191210'
+
+#  ------------  Hybris  -------------
+-
+ project_id:  '3128'
+ project_name: 'liecomm-hybris'
+ tag_name: 'R20191210'
+ refBranch: 'release/R20191210'
+
+-
+ project_id:  '3134'
+ project_name: 'li-ecomm-account/liecomm-hybris'
+ tag_name: 'R20191210'
+ refBranch: 'release/R20191210'
+
+-
+ project_id:  '3131'
+ project_name: 'li-ecomm-browser/liecomm-hybris'
+ tag_name: 'R20191210'
+ refBranch: 'release/R20191210'
+
+-
+ project_id:  '3133'
+ project_name: 'li-ecomm-commerce/liecomm-hybris'
+ tag_name: 'R20191210'
+ refBranch: 'release/R20191210'
+
+-
+ project_id:  '3130'
+ project_name: 'li-ecomm-content/liecomm-hybris'
+ tag_name: 'R20191210'
+ refBranch: 'release/R20191210'
+
+-
+ project_id:  '3132'
+ project_name: 'li-ecomm-shop/liecomm-hybris'
+ tag_name: 'R20191210'
+ refBranch: 'release/R20191210'
+#  -----------  Hybris  -------------
+
+#  -----------  MSA  -----------  
+-
+ project_id:  '5502'
+ project_name: 'drupal '
+ service: 'V1-cms'
+ tag_name: 'R20191210'
+ refBranch: 'release'
+
+-
+ project_id:  '2899'
+ project_name: 'li-ecomm-microservices'
+ service: 'V1-teamAlpha,V1-teamAlpha,V1-teamUxui,V1-teamUxui,V2-teamAccount,V2-teamBrowse,V2-teamCommerce,V2-teamShop,V2-teamWindchill'
+ tag_name: 'R20191210'
+ refBranch: 'release/mtp'
+
+-
+ project_id:  '3305'
+ project_name: 'li-ecomm/online-service-session'
+ service: 'V1-teamGamma'
+ tag_name: 'R20191210'
+ refBranch: 'release/mtp'
+
+-
+ project_id:  '5920'
+ project_name: 'li-ecomm-cto/li-ecomm-cto-services'
+ service: 'V2-teamCto'
+ tag_name: 'R20191210'
+ refBranch: 'release/mtp'
+
+-
+ project_id:  '5919'
+ project_name: 'microserviceuxui/dcg-ui-services'
+ service: 'V2-UXUI-mfeDcgUi'
+ tag_name: 'R20191210'
+ refBranch: 'release/MTP20190827'
+
+-
+ project_id:  '5281'
+ project_name: 'microserviceuxui/liecomm-ui-services'
+ service: 'V2-UXUI-mfeUi'
+ tag_name: 'R20191210'
+ refBranch: 'release/MTP'
+
+-
+ project_id:  '6206'
+ project_name: 'microserviceuxui/liecomm-web'
+ service: 'V2-UXUI-mfeWebapps'
+ tag_name: 'R20191210'
+ refBranch: 'release/mtp'
+
+-
+ project_id:  '9760'
+ project_name: 'li-ecomm-platform/li-msa-setting'
+ service: 'V3-publisherSettings,V3-serviceSettings'
+ tag_name: 'R20191210'
+ refBranch: 'release/mtp'
+
+-
+ project_id:  '9759'
+ project_name: 'li-ecomm-platform/li-msa-store'
+ service: 'V3-serviceStoreS'
+ tag_name: 'R20191210'
+ refBranch: 'release/mtp'
+
+-
+ project_id:  '8617'
+ project_name: 'li-ecomm/msa-browse'
+ service: 'V3-teamBrowse'
+ tag_name: 'R20191210'
+ refBranch: 'release/mtp'
+
+-
+ project_id:  '11608'
+ project_name: 'li-ecomm/msa-content'
+ service: 'V3-teamContent'
+ tag_name: 'R20191210'
+ refBranch: 'release/mtp'
+
+-
+ project_id:  '8678'
+ project_name: 'team-lambda/li-msa-price'
+ service: 'V3-teamLambda'
+ tag_name: 'R20191210'
+ refBranch: 'release/mtp'
+
+-
+ project_id:  '8626'
+ project_name: 'li-ecomm/msa-shop'
+ service: 'V3-teamShop'
+ tag_name: 'R20191210'
+ refBranch: 'release/mtp'
+
+ #  -----------  MSA  -----------  
+
+# -
+#  project_id:  '000'
+#  project_name: 'liecomm'
+#  service: 'v1'
+#  tag_name: 'R20191210'
+#  refBranch: 'release/mtp'
